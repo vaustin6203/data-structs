@@ -1,0 +1,63 @@
+All questions are optional, though try to answer at least 4. The main goal of this file is to get you thinking critically about your own work, but we will also use these self reflections at the end of the semester when we do our internal review of the course.
+
+ArrayDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: I did not use modulo to keep track of the first and last index and if I had, I wouldn't have had as many special cases that I needed to keep track of. I also wish I had made more helper methods to take care of the special cases rather than rewriting the code in each method and having things get really verbose and repetitive.
+
+Q: What's something you felt proud of in your code, if anything?
+
+A:I am proud that I was able to catch all the special cases since I implemented the circular array differently than everyone else. My code still works just as well, its just a little more verbose and complicated looking. 
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A:I wish I had made more helper methods to take care of the special cases rather than rewriting the code in each method and having things get really verbose and repetitive.
+
+Q: What did you learn by talking to your partner about writing ArrayDeque?
+
+A:
+
+Q: What do you wish you would have known before writing ArrayDeque, if anything?
+
+A: I wish I had know to use modulo to keep track of the indexes and make the array circular, rather than having a bunch of special cases that I had to keep checking for whenever I manipulated the array in any way. 
+
+Q: If you wrote ArrayDeque again, what would you do differently, if anything?
+
+A:
+
+-----
+
+LinkedListDeque:
+
+Q: Give an example of at least one idea from the staff solution that would have made your solution better (if any).
+
+A: 
+
+Q: What's something you felt proud of in your code, if anything?
+
+A: I was proud that I was really thorough at checking any special cases that could have been made within each method. I have learned I'm good at thinking about all the possible bugs that might arise if someone tries to do something odd with the data structure.
+
+Q: What's something that was particularly inelegant in your code, if anything?
+
+A: My getRecursive method could have been implanted better if I had used a helper method, since every time I made a recursive call, I was making a new copy of the list which just slows things down and is unnecessary. 
+
+Q: What did you learn by talking to your partner about writing LinkedListDeque?
+
+A:I learned that I sometimes write more than I need to when I'm writing my implementations. My code would improve if after I got the code to work, I went back and saw where I could edit out any unnecessary details. 
+
+Q: What do you wish you would have known before writing LinkedListDeque, if anything?
+
+A:
+
+Q: If you wrote LinkedListDeque again, what would you do differently, if anything?
+
+A:
+
+-----
+
+Meta:
+
+Q: Did you like this design review process? Anything we should do differently next time?
+
+A: I liked this design review and thought it was very helpful. 

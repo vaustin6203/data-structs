@@ -1,0 +1,36 @@
+What would you like L to be?: 1000
+
+Enter # strings to insert into ULLMap: 50
+class ULLMap: 0.01 sec
+
+Enter # strings to insert into your MyHashMap: 50
+class MyHashMap: 0.01 sec
+
+Enter # strings to insert into ULLMap: 10000
+class ULLMap: 0.92 sec
+
+Enter # strings to insert into your MyHashMap: 10000
+class MyHashMap: 0.13 sec
+
+Enter # strings to insert into Java's HashMap: 10000
+Java's Built-in HashMap: 0.13 sec
+
+Enter # strings to insert into ULLMap: 10000
+class ULLMap: 0.81 sec
+
+Enter # strings to insert into MyHashMap: 10000
+class MyHashMap: 0.03 sec
+
+Enter # strings to insert into Java's HashMap: 10000
+Java's Built-in HashMap: 0.02 sec
+
+Enter # strings to insert into MyHashMap: 20000
+class MyHashMap: 0.04 sec
+
+Enter # strings to insert into Java's HashMap: 20000
+Java's Built-in HashMap: 0.02 sec
+
+We would use a TreeMap over a Hashmap when we care about the placement of each item since Hashmap can not gaaruntee
+how elemnts will be arranged while a TreeMap will sort elements based on their natural order.Another case where you
+would want to use a TreeMap over a Hashmap is when you have strict limits on memory since TreeMaps only uses enough
+memoery to contain its items.

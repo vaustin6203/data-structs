@@ -1,0 +1,43 @@
+Desired Length of each string = 4
+
+# of strings to insert = 500
+class ULLMap: 0.00 sec
+class BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+
+# of strings to insert = 1000
+class ULLMap: 0.01 sec
+class BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+
+# of strings to insert = 2000
+class ULLMap: 0.02 sec
+class BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+
+# of strings to insert = 5000
+class ULLMap: 0.08 sec
+class BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+
+Desired length of each string = 10
+
+# of strings to insert = 1000
+class ULLMap: 0.01 sec
+class BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+
+# of strings to insert = 2500
+class ULLMap: 0.03 sec
+class BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+
+# of strings to insert = 3500
+class ULLMap: 0.04 sec
+class BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
+
+# of strings to insert = 5000
+class ULLMap: 0.08 sec
+class BSTMap: 0.00 sec
+Java's Built-in TreeMap: 0.00 sec
